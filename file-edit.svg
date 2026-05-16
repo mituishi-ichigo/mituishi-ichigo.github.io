@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="100%">
+    <defs>
+        <style>
+            .editor-font {
+                font-family: "Consolas", "Courier New", "Segoe UI", -apple-system, "Meiryo", "Hiragino Kaku Gothic ProN", sans-serif;
+            }
+            .tab-text {
+                font-size: 15px;
+                font-weight: bold;
+                fill: #f0f6fc;
+                text-anchor: middle;
+            }
+            .top-btn-text {
+                font-size: 14px;
+                fill: #c9d1d9;
+                font-weight: 500;
+                text-anchor: middle;
+            }
+            .line-num {
+                font-size: 15px;
+                fill: #8b949e;
+                text-anchor: end;
+            }
+            .code-text {
+                font-size: 15px;
+                fill: #c9d1d9;
+            }
+            .code-tag {
+                fill: #7ee787;
+                font-weight: bold;
+            }
+            .code-attr {
+                fill: #79c0ff;
+            }
+            .code-string {
+                fill: #a5d6ff;
+            }
+            .code-doctype {
+                fill: #ff7b72;
+                font-style: italic;
+            }
+        </style>
+    </defs>
+
+    <rect width="1000" height="380" fill="#0d1117" />
+
+    <rect x="15" y="15" width="970" height="350" rx="6" ry="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+
+    <g transform="translate(15, 15)">
+        <path d="M 0,6 A 6,6 0 0 1 6,0 L 964,0 A 6,6 0 0 1 970,6 L 970,45 L 0,45 Z" fill="#161b22" stroke="#30363d" stroke-width="1" />
+        <rect x="1" y="44" width="968" height="2" fill="#0d1117" />
+
+        <path d="M 10,45 L 10,12 A 4,4 0 0 1 14,8 L 76,8 A 4,4 0 0 1 80,12 L 80,45 Z" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+        <rect x="11" y="43" width="68" height="3" fill="#0d1117" />
+        <text x="45" y="30" class="editor-font tab-text">コード</text>
+
+        <text x="115" y="30" class="editor-font tab-text" fill="#8b949e">非難</text>
+
+        <g transform="translate(720, 8)">
+            <rect x="0" y="0" width="32" height="28" rx="4" fill="#21262d" stroke="#30363d" />
+            <text x="16" y="18" class="editor-font top-btn-text">生</text>
+
+            <rect x="36" y="0" width="32" height="28" rx="4" fill="#21262d" stroke="#30363d" />
+            <g transform="translate(44, 6) scale(0.85)" stroke="#c9d1d9" stroke-width="1.5" fill="none">
+                <rect x="2" y="5" width="10" height="10" rx="1.5" />
+                <path d="M 5,2 L 13,2 A 1.5,1.5 0 0 1 14.5,3.5 L 14.5,11" />
+            </g>
+
+            <rect x="72" y="0" width="32" height="28" rx="4" fill="#21262d" stroke="#30363d" />
+            <g transform="translate(80, 6) scale(0.85)" stroke="#c9d1d9" stroke-width="1.5" fill="none">
+                <path d="M 3,12 L 13,12 M 8,2 L 8,10 M 5,7 L 8,10 L 11,7" />
+            </g>
+
+            <rect x="108" y="0" width="45" height="28" rx="4" fill="#21262d" stroke="#30363d" />
+            <g transform="translate(116, 6) scale(0.85)" stroke="#c9d1d9" stroke-width="1.5" fill="none">
+                <path d="M 13.5,1.5 L 14.5,2.5 A 1,1 0 0 1 14.5,3.9 L 5,13.4 L 1.5,14.5 L 2.6,11 L 12.1,1.5 A 1,1 0 0 1 13.5,1.5 Z" />
+            </g>
+            <path d="M 143,12 L 146,15 L 149,12" stroke="#c9d1d9" stroke-width="1.5" fill="none" />
+
+            <rect x="157" y="0" width="32" height="28" rx="4" fill="#21262d" stroke="#30363d" />
+            <g transform="translate(165, 6) scale(0.85)" stroke="#c9d1d9" stroke-width="1.5" fill="none">
+                <path d="M 4,4 L 1,8 L 4,12 M 12,4 L 15,8 L 12,12" />
+            </g>
+        </g>
+    </g>
+
+    <g transform="translate(15, 75)">
+        <text x="50" y="25" class="editor-font line-num">1</text>
+        <text x="50" y="55" class="editor-font line-num">2</text>
+        <text x="50" y="85" class="editor-font line-num">3</text>
+        <text x="50" y="115" class="editor-font line-num">4</text>
+        <text x="50" y="145" class="editor-font line-num">5</text>
+        <text x="50" y="175" class="editor-font line-num">6</text>
+        <text x="50" y="205" class="editor-font line-num">7</text>
+
+        <text x="90" y="25" class="editor-font code-text">
+            <tspan class="code-doctype">&lt;!DOCTYPE html&gt;</tspan>
+        </text>
+
+        <text x="90" y="55" class="editor-font code-text">
+            &lt;<tspan class="code-tag">HTML</tspan> <tspan class="code-attr">ラン</tspan>=<tspan class="code-string">"ja "</tspan>「&gt;
+        </text>
+
+        <text x="90" y="115" class="editor-font code-text">
+            &lt;<tspan class="code-tag">頭</tspan>&gt;
+        </text>
+
+        <text x="90" y="145" class="editor-font code-text">
+                &lt;<tspan class="code-tag">メタ</tspan> <tspan class="code-attr">文字セット</tspan>=<tspan class="code-string">"UTF-8 "</tspan>「&gt;
+        </text>
+
+        <text x="90" y="175" class="editor-font code-text">
+                &lt;<tspan class="code-tag">メタ</tspan> <tspan class="code-attr">名前</tspan>=<tspan class="code-string">"ビューポート "</tspan> <tspan class="code-attr">コンテンツ</tspan>=<tspan class="code-string">"幅=デバイス幅、初期スケール=1.0 "</tspan>「&gt;
+        </text>
+
+        <text x="90" y="205" class="editor-font code-text">
+                &lt;<tspan class="code-tag">タイトル</tspan>&gt;三石一護 ホームページ作成&lt;/<tspan class="code-tag">タイトル</tspan>&gt;
+        </text>
+    </g>
+</svg>
