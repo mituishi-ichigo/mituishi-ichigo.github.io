@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%">
+    <defs>
+        <style>
+            .base-text {
+                font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Meiryo", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+            }
+
+            .repo-title {
+                font-size: 24px;
+                font-weight: bold;
+                fill: #f0f6fc;
+            }
+
+            .badge-text {
+                font-size: 12px;
+                fill: #8b949e;
+                font-weight: 500;
+            }
+
+            .btn-txt-small {
+                font-size: 13px;
+                fill: #c9d1d9;
+                font-weight: 500;
+            }
+
+            .branch-dropdown-text {
+                font-size: 14px;
+                fill: #c9d1d9;
+                font-weight: 600;
+            }
+
+            .stat-text {
+                font-size: 14px;
+                fill: #8b949e;
+                font-weight: 500;
+            }
+
+            .stat-text-highlight {
+                fill: #c9d1d9;
+                font-weight: 600;
+            }
+
+            .search-placeholder {
+                font-size: 14px;
+                fill: #8b949e;
+            }
+
+            .code-btn-text {
+                font-size: 14px;
+                fill: #ffffff;
+                font-weight: 600;
+            }
+
+            .commit-author {
+                font-size: 14px;
+                fill: #f0f6fc;
+                font-weight: 600;
+            }
+
+            .commit-msg {
+                font-size: 14px;
+                fill: #8b949e;
+            }
+
+            .commit-meta {
+                font-size: 12px;
+                fill: #8b949e;
+                text-anchor: end;
+            }
+
+            .file-name {
+                font-size: 14px;
+                fill: #c9d1d9;
+                font-weight: 500;
+            }
+
+            .file-msg {
+                font-size: 14px;
+                fill: #8b949e;
+            }
+
+            .file-date {
+                font-size: 14px;
+                fill: #8b949e;
+                text-anchor: end;
+            }
+
+            .readme-title {
+                font-size: 22px;
+                font-weight: 600;
+                fill: #f0f6fc;
+                text-anchor: middle;
+            }
+
+            .readme-desc {
+                font-size: 16px;
+                fill: #8b949e;
+                text-anchor: middle;
+            }
+        </style>
+    </defs>
+
+    <rect width="1000" height="650" fill="#0d1117" />
+
+    <g transform="translate(40, 40)">
+        <circle cx="0" cy="0" r="14" fill="#ffffff" />
+        <rect x="-7" y="-7" width="14" height="14" fill="#ab47bc" rx="2" />
+        <rect x="-7" y="-7" width="4" height="4" fill="#ffffff" />
+        <rect x="3" y="-7" width="4" height="4" fill="#ffffff" />
+        <rect x="-2" y="2" width="4" height="4" fill="#ffffff" />
+    </g>
+    <text x="65" y="47" class="base-text repo-title">mituishi-ichigo.github.io</text>
+
+    <rect x="355" y="28" width="50" height="22" rx="11" fill="none" stroke="#30363d" stroke-width="1" />
+    <text x="380" y="43" class="base-text badge-text" text-anchor="middle">Public</text>
+
+    <g transform="translate(750, 26)">
+        <rect x="0" y="0" width="65" height="28" rx="6" fill="#21262d" stroke="#30363d" />
+        <text x="32" y="18" class="base-text btn-txt-small" text-anchor="middle">Pin</text>
+
+        <rect x="73" y="0" width="95" height="28" rx="6" fill="#21262d" stroke="#30363d" />
+        <text x="120" y="18" class="base-text btn-txt-small" text-anchor="middle">Watch 0</text>
+    </g>
+
+    <g transform="translate(25, 90)">
+        <rect x="0" y="0" width="120" height="32" rx="6" fill="#21262d" stroke="#30363d" />
+        <g transform="translate(12, 8) scale(0.8)" stroke="#c9d1d9" stroke-width="2" fill="none">
+            <circle cx="5" cy="5" r="2" />
+            <circle cx="5" cy="15" r="2" />
+            <path d="M 5,7 L 5,13" />
+        </g>
+        <text x="36" y="21" class="base-text branch-dropdown-text">main</text>
+        <path d="M 98,14 L 102,18 L 106,14" stroke="#c9d1d9" stroke-width="1.5" fill="none" />
+
+        <g transform="translate(140, 8) scale(0.8)" stroke="#8b949e" stroke-width="2" fill="none">
+            <circle cx="5" cy="5" r="2" />
+            <circle cx="5" cy="15" r="2" />
+            <path d="M 5,7 L 5,13" />
+        </g>
+        <text x="160" y="21" class="base-text stat-text">
+            <tspan class="stat-text-highlight">1</tspan> Branch
+        </text>
+
+        <g transform="translate(240, 8) scale(0.8)" stroke="#8b949e" stroke-width="2" fill="none">
+            <path d="M 6,5 L 14,5 L 14,13 L 6,13 Z" />
+            <circle cx="10" cy="9" r="1.5" fill="#8b949e" />
+        </g>
+        <text x="260" y="21" class="base-text stat-text">
+            <tspan class="stat-text-highlight">0</tspan> Tags
+        </text>
+
+        <rect x="420" y="0" width="260" height="32" rx="6" fill="#0d1117" stroke="#30363d" />
+        <circle cx="435" cy="15" r="4" fill="none" stroke="#8b949e" stroke-width="1.5" />
+        <line x1="438" y1="18" x2="443" y2="23" stroke="#8b949e" stroke-width="1.5" />
+        <text x="452" y="21" class="base-text search-placeholder">Go to file</text>
+        <rect x="655" y="6" width="16" height="20" rx="3" fill="#21262d" stroke="#30363d" />
+        <text x="663" y="20" font-size="11" fill="#8b949e" text-anchor="middle" font-family="monospace">t</text>
+
+        <rect x="690" y="0" width="36" height="32" rx="6" fill="#21262d" stroke="#30363d" />
+        <path d="M 703,16 L 713,16 M 708,11 L 708,21" stroke="#c9d1d9" stroke-width="2" stroke-linecap="round" />
+
+        <rect x="736" y="0" width="95" height="32" rx="6" fill="#238636" stroke="rgba(240, 246, 252, 0.1)" />
+        <path d="M 750,12 L 745,16 L 750,20 M 756,12 L 761,16 L 756,20" stroke="#ffffff" stroke-width="2" fill="none" />
+        <text x="770" y="21" class="base-text code-btn-text">Code</text>
+        <path d="M 814,14 L 818,18 L 822,14" stroke="#ffffff" stroke-width="1.5" fill="none" />
+    </g>
+
+    <g transform="translate(25, 145)">
+        <rect x="0" y="0" width="830" height="110" rx="6" ry="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+        <circle cx="25" cy="22" r="10" fill="#ffffff" />
+        <rect x="-5" y="-5" width="10" height="10" fill="#ab47bc" rx="1" transform="translate(25, 22)" />
+        <text x="45" y="27" class="base-text commit-author">mituishi-ichigo</text>
+        <text x="160" y="27" class="base-text commit-msg">Delete style001.css</text>
+        <path d="M 310,23 L 313,26 L 319,19" stroke="#3fb950" stroke-width="2" fill="none" stroke-linecap="round" />
+        <text x="815" y="26" class="base-text commit-meta">
+            <tspan fill="#58a6ff">34fdb28</tspan> ・ 7 時間前 ・ <tspan fill="#f0f6fc" font-weight="bold">12</tspan> Commits
+        </text>
+        <line x1="0" y1="45" x2="830" y2="45" stroke="#30363d" stroke-width="1" />
+
+        <g transform="translate(25, 75) scale(0.9)">
+            <path d="M -6,-9 L 1,-9 L 6,-4 L 6,11 L -6,11 Z" fill="none" stroke="#8b949e" stroke-width="1.5" />
+            <path d="M 1,-9 L 1,-4 L 6,-4" fill="none" stroke="#8b949e" stroke-width="1.5" />
+        </g>
+        <text x="45" y="77" class="base-text file-name">index.html</text>
+        <text x="350" y="77" class="base-text file-msg">Add files via upload</text>
+        <text x="815" y="77" class="base-text file-date">昨日</text>
+    </g>
+
+    <g transform="translate(25, 275)">
+        <rect x="0" y="0" width="830" height="240" rx="6" ry="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+        <g transform="translate(40, 20) scale(0.9)" stroke="#f0f6fc" stroke-width="1.5" fill="none">
+            <path d="M -8,-6 L 0,-4 L 8,-6 L 8,6 L 0,8 L -8,6 Z" />
+            <path d="M 0,-4 L 0,8" />
+        </g>
+        <text x="55" y="24" class="base-text" font-size="13" font-weight="bold" fill="#f0f6fc">README</text>
+        <line x1="20" y1="35" x2="110" y2="35" stroke="#f78166" stroke-width="2" />
+        <line x1="0" y1="36" x2="830" y2="36" stroke="#30363d" stroke-width="1" />
+
+        <g transform="translate(415, 105) scale(2.2)" stroke="#8b949e" stroke-width="1.5" fill="none">
+            <path d="M -10,-7 L 0,-5 L 10,-7 L 10,7 L 0,9 L -10,7 Z" stroke-linejoin="round" />
+            <path d="M 0,-5 L 0,9" />
+        </g>
+        <text x="415" y="160" class="base-text readme-title">Add a README</text>
+        <text x="415" y="190" class="base-text readme-desc">Help people interested in this repository understand your
+            project.</text>
+
+        <rect x="330" y="180" width="170" height="36" rx="6" fill="#238636" stroke="rgba(240, 246, 252, 0.1)" />
+        <text x="415" y="202" class="base-text btn-text commit-text">Add a README</text>
+    </g>
+</svg>
